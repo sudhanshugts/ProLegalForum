@@ -1,0 +1,46 @@
+/* FOOTER WRAPPER */
+.footer {
+  padding: 20px 30px;
+  margin-top: 60px;
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+}
+
+/* SOCIAL ICONS CENTERED */
+.footer-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-social a {
+  color: var(--text);
+  font-size: 22px;
+  transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: var(--secondary);
+  transform: translateY(-3px);
+}
+
+/* BOTTOM TEXT */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: var(--secondary);
+  opacity: 0.9;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 750px) {
+  .footer-social {
+    gap: 20px;
+  }
+}

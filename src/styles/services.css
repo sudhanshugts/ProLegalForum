@@ -1,0 +1,94 @@
+/* Services Page */
+.services-page {
+  display: flex;
+  justify-content: center;
+  padding: 100px 30px;
+}
+
+.services-container {
+  max-width: 900px;
+  text-align: center;
+}
+
+/* Heading */
+.services-container h1 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-family: "DM Serif Display", serif;
+}
+
+/* Main Paragraphs */
+.services-container > p {
+  margin-bottom: 18px;
+  line-height: 1.45;
+  color: var(--secondary);
+  font-size: 17px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* Individual Card */
+.card {
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 25px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+/* Card Hover */
+.card:hover {
+  transform: translateY(-8px);
+  border-color: var(--secondary);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Card Headings */
+.card h3 {
+  font-size: 22px;
+  font-family: "DM Serif Display", serif;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+/* Card Content */
+.card p {
+  color: var(--secondary);
+  line-height: 1.4;
+  font-size: 15.5px;
+}
+
+/* Fade Up Animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeUp 0.9s ease forwards;
+}
+
+/* Delay Helpers */
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+.delay-4 { animation-delay: 0.8s; }
+.delay-5 { animation-delay: 1s; }
+.delay-6 { animation-delay: 1.2s; }
+.delay-7 { animation-delay: 1.4s; }
+
+/* Keyframes */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
