@@ -7,7 +7,9 @@ function Dashboard() {
   return (
     <Layout>
       <div className="dashboard-page">
+
         <div className="hero-content">
+
           <h1 className="fade-up">
             Welcome to Pro Legal Institutional Arbitration Forum
           </h1>
@@ -27,6 +29,7 @@ function Dashboard() {
             Learn More
           </Link>
         </div>
+        
       </div>
     </Layout>
   );
