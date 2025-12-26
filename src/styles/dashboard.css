@@ -16,7 +16,7 @@
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: var(--text);
   line-height: 1.2;
   font-family: "DM Serif Display", serif;
 }

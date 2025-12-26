@@ -20,10 +20,10 @@ function Dashboard() {
             commercial, banking, and corporate sectors.
           </p>
 
-          <p className="fade-up delay-2">
+          {/* <p className="fade-up delay-2">
           Pro Legal Institutional Arbitration Forum aims to bring global-standard processes with structured
             timelines, expert arbitrators, and seamless digital case management.
-          </p>
+          </p> */}
 
           <Link className="hero-btn fade-up delay-3" to="/about">
             Learn More
