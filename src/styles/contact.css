@@ -84,3 +84,70 @@
     transform: translateY(0);
   }
 }
+
+
+/* Inquiry Form - Matching Existing Theme */
+.contact-form {
+  margin-top: 60px;
+  padding: 35px 30px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-delay: 1s;
+}
+
+/* Form Heading */
+.contact-form h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* Inputs & Textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--secondary);
+}
+
+/* Focus State */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Submit Button */
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.contact-form button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}

@@ -16,6 +16,7 @@ export default function Header() {
           <li><NavLink to="/arbitrators">Arbitrators</NavLink></li>
           <li><NavLink to="/journey-to-resolution">Journey to Resolution</NavLink></li>
           <li><NavLink to="/cases">Cases</NavLink></li>
+          <li><NavLink to="/blog">Blog</NavLink></li>
           <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
       </nav>
