@@ -7,63 +7,66 @@ function Services() {
     <Layout>
       <div className="services-page">
         <div className="services-container fade-up">
-
           <h1>Our Services</h1>
 
           <p className="delay-1">
-            Pro Legal Institutional Arbitration Forum offers structured, rules-based, 
-            and technology-enabled arbitration services designed to bring efficiency, 
-            transparency, and neutrality in commercial, corporate, and financial disputes.
+            Pro Legal Institutional Arbitration Forum offers structured,
+            rules-based, and technology-enabled arbitration services designed to
+            bring efficiency, transparency, and neutrality in commercial,
+            corporate, and financial disputes.
           </p>
 
           <p className="delay-2">
-            Our platform ensures predictable timelines, digital case management, expert 
-            arbitrator support, and fully compliant workflows built for modern dispute 
-            resolution needs.
+            Our platform ensures predictable timelines, digital case management,
+            expert arbitrator support, and fully compliant workflows built for
+            modern dispute resolution needs.
           </p>
 
           <div className="card-wrapper">
-
-            <div className="card fade-up delay-3">
+            <div className="card fade-up">
               <h3>Institutional Arbitration</h3>
               <p>
-                Neutral, rules-driven arbitration conducted under structured procedures, 
-                ensuring fairness, efficiency, and enforceability for all parties.
+                Neutral, rules-driven arbitration conducted under structured
+                procedures, ensuring fairness, efficiency, and enforceability
+                for all parties.
               </p>
             </div>
 
-            <div className="card fade-up delay-4">
+            <div className="card fade-up">
               <h3>Arbitrator Appointment System</h3>
               <p>
-                A clear and transparent panel-based selection process with automated 
-                allocation to eliminate bias and ensure expert handling of disputes.
+                A clear and transparent panel-based selection process with
+                automated allocation to eliminate bias and ensure expert
+                handling of disputes.
               </p>
             </div>
 
-            <div className="card fade-up delay-5">
+            <div className="card fade-up ">
               <h3>Hybrid & Online Hearings</h3>
               <p>
-                Seamless online and hybrid hearings supported by secure digital evidence 
-                management, real-time documentation and smooth virtual coordination.
+                Seamless online and hybrid hearings supported by secure digital
+                evidence management, real-time documentation and smooth virtual
+                coordination.
               </p>
             </div>
 
-            <div className="card fade-up delay-6">
+            <div className="card fade-up ">
               <h3>Case Management System</h3>
               <p>
-                End-to-end scheduling, notice generation, submissions, timelines and 
-                document tracking—fully digitized for speed and accuracy.
+                End-to-end scheduling, notice generation, submissions, timelines
+                and document tracking—fully digitized for speed and accuracy.
               </p>
             </div>
+            <div></div>
 
-            <div className="card fade-up delay-7">
+            <div className="card fade-up ">
               <h3>Compliance & Process Governance</h3>
               <p>
-                Strong adherence to procedural rules, transparent reporting, and 
-                governance-driven frameworks for safe, reliable arbitration proceedings.
+                Strong adherence to procedural rules, transparent reporting, and
+                governance-driven frameworks for safe, reliable arbitration
+                proceedings.
               </p>
             </div>
-
           </div>
         </div>
       </div>
