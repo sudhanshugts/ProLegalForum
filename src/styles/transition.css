@@ -8,18 +8,15 @@
   width: 100%;
   height: 100vh;
 
-  background: var(--secondary); 
+  background: var(--secondary);
   z-index: 9999;
   pointer-events: none;
   will-change: transform;
 }
 
-/* Slide In → grows from bottom upward */
 .slide-in {
-  transform-origin: bottom;
+  transform-origin: right;
 }
-
-/* Slide Out → shrinks downward */
 .slide-out {
-  transform-origin: top;
+  transform-origin: left;
 }
