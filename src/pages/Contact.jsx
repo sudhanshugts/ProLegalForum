@@ -35,15 +35,12 @@ function Contact() {
 
           <div className="contact-info">
             <p className="contact-item">
-              <span className="label">Email:</span> Prolegal@pliaf.com
+              <span className="label">Email:</span> Registrar@prolegalforum.com
             </p>
 
             <p className="contact-item">
-              <span className="label">Contact Person:</span> Dharmendrabhai
-            </p>
-
-            <p className="contact-item">
-              <span className="label">Mobile:</span> +91 7903277008
+              <span className="label">Mobile:</span>
+              +91 9978787878
             </p>
 
             <p className="contact-item">

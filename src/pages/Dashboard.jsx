@@ -7,17 +7,15 @@ function Dashboard() {
   return (
     <Layout>
       <div className="dashboard-page">
-
         <div className="hero-content">
-
           <h1 className="fade-up">
-            Welcome to Pro Legal Institutional Arbitration Forum
+            Institutional Arbitration. Administered with Neutrality.
           </h1>
 
           <p className="fade-up delay-1">
-            India’s modern institutional arbitration platform designed for
-            fairness, transparency, and efficient dispute resolution across
-            commercial, banking, and corporate sectors.
+            A professionally governed arbitration institution administering
+            proceedings through neutral appointments and structured case
+            management.
           </p>
 
           {/* <p className="fade-up delay-2">
@@ -29,7 +27,6 @@ function Dashboard() {
             Learn More
           </Link>
         </div>
-        
       </div>
     </Layout>
   );

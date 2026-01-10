@@ -33,6 +33,7 @@
   opacity: 0;
   transform: translateY(25px);
   animation: fadeUp 0.9s ease forwards;
+  text-align: left;
 }
 
 /* Animation Delays */
@@ -80,6 +81,7 @@
   color: var(--secondary);
   font-size: 16px;
   line-height: 1.4;
+  text-align: left;
 }
 
 /* Fade Animation */
@@ -147,7 +149,6 @@
   border-radius: 10px;
 }
 
-
 /* Fade animation */
 @keyframes fadeIn {
   from {
@@ -156,4 +157,97 @@
   to {
     opacity: 1;
   }
+}
+.journey-structured {
+  margin-top: 40px;
+  text-align: left;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--secondary);
+}
+
+/* Section Heading */
+.journey-structured h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 26px;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+
+/* Intro paragraph */
+.journey-structured > p {
+  font-size: 17px;
+  line-height: 1.65;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+/* Ordered steps */
+.journey-steps {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+.journey-steps li {
+  counter-increment: step;
+  margin-bottom: 22px;
+  padding-left: 48px;
+  position: relative;
+}
+
+/* Number bubble */
+.journey-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--text);
+}
+
+/* Step title */
+.journey-steps strong {
+  display: block;
+  color: var(--text);
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* Step description */
+.journey-steps span {
+  font-size: 15.5px;
+  line-height: 1.6;
+}
+
+/* Principles box */
+.journey-principles {
+  padding: 22px 24px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.journey-principles h4 {
+  font-size: 18px;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.journey-principles ul {
+  padding-left: 18px;
+}
+
+.journey-principles li {
+  margin-bottom: 8px;
+  font-size: 15.5px;
 }

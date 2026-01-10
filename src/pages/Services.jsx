@@ -10,51 +10,62 @@ function Services() {
           <h1>Our Services</h1>
 
           <p className="delay-1">
-            Pro Legal Institutional Arbitration Forum offers structured,
-            rules-based, and technology-enabled arbitration services designed to
-            bring efficiency, transparency, and neutrality in commercial,
-            corporate, and financial disputes.
+            Pro Legal Institutional Arbitration Forum provides structured,
+            rules-based arbitration administration through a neutral
+            institutional framework designed to ensure procedural fairness,
+            efficiency, and reliability in dispute resolution.
           </p>
 
           <p className="delay-2">
-            Our platform ensures predictable timelines, digital case management,
-            expert arbitrator support, and fully compliant workflows built for
-            modern dispute resolution needs.
+            The Forum supports arbitral proceedings from commencement to
+            conclusion through transparent processes, predictable timelines, and
+            professionally governed case management—suited for commercial,
+            corporate, and financial disputes.
+          </p>
+          <p className="delay-2">
+            The Forum’s role is strictly administrative, ensuring neutrality and
+            procedural discipline without interfering in the decision-making
+            authority of the arbitral tribunal.
           </p>
 
           <div className="card-wrapper">
             <div className="card fade-up">
               <h3>Institutional Arbitration</h3>
               <p>
-                Neutral, rules-driven arbitration conducted under structured
-                procedures, ensuring fairness, efficiency, and enforceability
-                for all parties.
+                Arbitrations administered under the Forum’s Rules through a
+                neutral, institutionally governed process. The Forum ensures
+                structured procedure, consistency, and fairness, while the
+                arbitral tribunal independently adjudicates the dispute.
               </p>
             </div>
 
             <div className="card fade-up">
               <h3>Arbitrator Appointment System</h3>
               <p>
-                A clear and transparent panel-based selection process with
-                automated allocation to eliminate bias and ensure expert
-                handling of disputes.
+                A transparent, panel-based arbitrator appointment mechanism
+                administered by the Forum to ensure neutrality, independence,
+                and suitability of appointments, eliminating unilateral or
+                biased selection processes.
               </p>
             </div>
 
             <div className="card fade-up ">
               <h3>Hybrid & Online Hearings</h3>
               <p>
-                Seamless online and hybrid hearings supported by secure digital
-                evidence management, real-time documentation and smooth virtual
-                coordination.
+                Administrative support for physical, virtual, and hybrid
+                hearings, including secure digital document handling, scheduling
+                coordination, and procedural assistance to ensure smooth conduct
+                of proceedings.
               </p>
             </div>
 
             <div className="card fade-up ">
               <h3>Case Management System</h3>
               <p>
-                End-to-end scheduling, notice generation, submissions, timelines
-                and document tracking—fully digitized for speed and accuracy.
+                End-to-end administrative support including filing, notices,
+                scheduling, submissions, procedural timelines, and document
+                management—enabled through structured digital workflows for
+                accuracy and efficiency.
               </p>
             </div>
             <div></div>
@@ -62,9 +73,10 @@ function Services() {
             <div className="card fade-up ">
               <h3>Compliance & Process Governance</h3>
               <p>
-                Strong adherence to procedural rules, transparent reporting, and
-                governance-driven frameworks for safe, reliable arbitration
-                proceedings.
+                Institutional oversight to ensure adherence to procedural rules,
+                timelines, and reporting requirements, reinforcing the
+                integrity, transparency, and reliability of the arbitral
+                process.
               </p>
             </div>
           </div>

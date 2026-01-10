@@ -27,6 +27,7 @@
   line-height: 1.45;
   color: var(--secondary);
   font-size: 17px;
+  text-align: left;
 }
 
 /* Fading Animation (same as Dashboard) */
