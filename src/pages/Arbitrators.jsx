@@ -13,15 +13,15 @@ function Arbitrators() {
             Pro Legal Institutional Arbitration Forum is supported by a
             carefully curated panel of arbitrators distinguished by their
             experience in adjudicating disputes, deep familiarity with legal
-            process, and demonstrated commitment to neutrality and fairness.
+            process and demonstrated commitment to neutrality and fairness.
           </p>
 
           <p className="fade-subtitle">
             The Forum’s panel brings together professionals who have spent
             significant portions of their careers evaluating evidence, applying
-            legal principles, and delivering reasoned outcomes in complex
+            legal principles and delivering reasoned outcomes in complex
             matters. This collective experience ensures that disputes are
-            approached with judicial discipline, procedural balance, and an
+            approached with judicial discipline, procedural balance and an
             acute understanding of what constitutes a fair and enforceable
             resolution.
           </p>
@@ -36,7 +36,7 @@ function Arbitrators() {
             <br />
           <span style={{fontStyle:"italic"}}>
               • Senior legal professionals with extensive exposure to
-              decision-making roles across civil, commercial, and financial
+              decision-making roles across civil, commercial and financial
               matters
             </span>
             <br />
@@ -56,20 +56,20 @@ function Arbitrators() {
           <p className="fade-subtitle fade-step delay-2">
             Every arbitrator empanelled with the Forum is selected through an
             institutional process that places emphasis on independence,
-            integrity, and proven decision-making ability, rather than advocacy
+            integrity and proven decision-making ability, rather than advocacy
             alone.
           </p>
           <p className="fade-subtitle fade-step delay-2">
             The Forum does not promote or nominate arbitrators on the basis of
             affiliation or visibility. Appointments are administered through
             neutral, panel-based mechanisms designed to ensure suitability,
-            impartiality, and confidence in the arbitral process.
+            impartiality and confidence in the arbitral process.
           </p>
           <p className="fade-subtitle fade-step delay-2">
             The arbitrators associated with the Forum bring to each proceeding a
             mindset shaped by years of structured dispute resolution, ensuring
-            that proceedings are conducted with fairness, clarity, and respect
-            for due process, and that outcomes reflect careful consideration
+            that proceedings are conducted with fairness, clarity and respect
+            for due process and that outcomes reflect careful consideration
             rather than expediency.
           </p>
         </div>

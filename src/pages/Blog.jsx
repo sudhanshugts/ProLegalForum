@@ -15,25 +15,25 @@ function Blog() {
 
           <p className="delay-2">
             Litigation remains the cornerstone of dispute resolution. However,
-            increasing caseloads, procedural complexity, and extended timelines
+            increasing caseloads, procedural complexity and extended timelines
             have placed sustained pressure on courts and litigants alike. In
             this context, structured alternative dispute resolution mechanisms
             have assumed growing importance. Alternative Dispute Resolution
             (ADR), including arbitration and mediation, operates within a
             legally recognised framework and functions in coordination with the
             judicial system. Courts routinely support ADR through referrals,
-            enforcement of arbitral awards, and recognition of mediated
+            enforcement of arbitral awards and recognition of mediated
             settlements. A key contribution of ADR lies in procedural
             efficiency. Commercial and contractual disputes that are suited for
             structured resolution can be addressed through arbitration, enabling
             courts to focus on matters requiring formal adjudication. Defined
-            timelines, limited hearings, and issue-focused proceedings reduce
+            timelines, limited hearings and issue-focused proceedings reduce
             procedural delays while maintaining legal rigour. The ability to
             appoint decision-makers with subject-specific expertise further
             enhances the quality and efficiency of outcomes. Importantly, ADR
             does not replace litigation. It complements the judicial process by
             reducing procedural burden and ensuring that disputes are resolved
-            in a timely, structured, and enforceable manner.
+            in a timely, structured and enforceable manner.
           </p>
           <h2 className="delay-1">
             ADR as a Complement to the Judicial Process
@@ -50,7 +50,7 @@ function Blog() {
             to displace litigation, but to assist the justice delivery system by
             resolving disputes that are suited for structured, time-bound
             determination. Arbitration, in particular, offers defined procedural
-            timelines, focused hearings, and neutral decision-making, enabling
+            timelines, focused hearings and neutral decision-making, enabling
             parties to obtain enforceable outcomes without prolonged litigation.
             This procedural discipline reduces strain on courts while preserving
             legal certainty and fairness. Another significant advantage of ADR
@@ -73,10 +73,10 @@ function Blog() {
             justice system. Arbitration and mediation operate within a legally
             recognised framework and are consistently supported by courts
             through referrals and enforcement. By offering defined timelines,
-            focused proceedings, and enforceable outcomes, ADR enables efficient
+            focused proceedings and enforceable outcomes, ADR enables efficient
             resolution of commercial and institutional disputes. Rather than
             replacing litigation, ADR complements it—reducing procedural burden,
-            preserving confidentiality, and ensuring that disputes are resolved
+            preserving confidentiality and ensuring that disputes are resolved
             in a disciplined and legally sound manner.
           </p>
           <h2 className="delay-1">
@@ -95,12 +95,12 @@ function Blog() {
             system, but an integral component of it. Courts have repeatedly
             acknowledged that litigation, while essential, cannot be the sole
             mechanism for resolving all categories of disputes—particularly
-            commercial, contractual, and institutional matters that lend
+            commercial, contractual and institutional matters that lend
             themselves to structured resolution. Section 89 as a Judicial Policy
             Tool Section 89 CPC reflects a policy choice by the legislature to
             institutionalise dispute resolution beyond traditional adjudication.
             Judicial pronouncements have reinforced that this provision is
-            intended to reduce procedural burden, promote efficiency, and enable
+            intended to reduce procedural burden, promote efficiency and enable
             courts to focus their resources on matters requiring authoritative
             determination. Importantly, courts have clarified that referrals
             under Section 89 are not a dilution of judicial authority. On the
@@ -110,11 +110,11 @@ function Blog() {
             enforcement. Judicial Emphasis on Institutional Frameworks Recent
             judicial trends demonstrate a clear preference for institutional ADR
             mechanisms over ad-hoc processes. Courts have highlighted concerns
-            surrounding unilateral appointments, procedural inconsistency, and
+            surrounding unilateral appointments, procedural inconsistency and
             lack of transparency in unstructured dispute resolution. In
             response, judicial discourse has increasingly favoured neutral,
             rules-based institutions that provide: • transparent appointment
-            mechanisms, • procedural discipline, and • administrative oversight
+            mechanisms, • procedural discipline and • administrative oversight
             without interference in adjudication. This approach aligns with the
             broader objective of Section 89—to ensure that disputes are resolved
             efficiently while maintaining confidence in legal outcomes.
@@ -122,7 +122,7 @@ function Blog() {
             consistently underscored that arbitration does not replace the
             courts. Instead, it operates in coordination with them. Courts
             retain a supervisory role at critical stages, including referral,
-            interim protection, and enforcement, ensuring that arbitral
+            interim protection and enforcement, ensuring that arbitral
             proceedings remain anchored in legality and fairness. By encouraging
             structured arbitration under institutional frameworks, courts have
             sought to strike a balance between party-driven resolution and
@@ -137,7 +137,7 @@ function Blog() {
             judicial caseloads grow and commercial disputes become increasingly
             complex, the role of institutional arbitration and mediation is
             likely to expand further—guided by judicial principles of fairness,
-            neutrality, and efficiency. ⸻ Disclaimer This article is intended
+            neutrality and efficiency. ⸻ Disclaimer This article is intended
             for general informational purposes and does not constitute legal
             advice.
           </p>

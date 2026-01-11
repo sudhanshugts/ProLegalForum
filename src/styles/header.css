@@ -23,7 +23,7 @@ nav a {
   text-decoration: none;
   color: var(--text);
   transition: color 0.3s;
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri";
 }
 
 nav a:hover {

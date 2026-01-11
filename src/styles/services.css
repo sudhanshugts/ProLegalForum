@@ -17,7 +17,7 @@
   margin-bottom: 25px;
   color: var(--text);
   line-height: 1.2;
-  font-family: "DM Serif Display", serif;
+
 }
 
 /* Main Paragraphs */
@@ -58,7 +58,7 @@
 /* Card Headings */
 .card h3 {
   font-size: 22px;
-  font-family: "DM Serif Display", serif;
+
   margin-bottom: 12px;
   color: #fff;
 }

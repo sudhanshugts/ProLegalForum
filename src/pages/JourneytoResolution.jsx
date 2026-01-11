@@ -32,8 +32,8 @@ function JourneytoResolution() {
 
           <p className="journey-description delay-1">
             Pro Legal Institutional Arbitration Forum administers arbitral
-            proceedings through a structured, transparent, and time-bound
-            process designed to ensure procedural fairness, neutrality, and
+            proceedings through a structured, transparent and time-bound
+            process designed to ensure procedural fairness, neutrality and
             efficient resolution of disputes.
           </p>
 
@@ -51,7 +51,7 @@ function JourneytoResolution() {
               clarity and predictability at every stage—beginning with
               commencement of proceedings and concluding with the delivery of a
               reasoned arbitral award. Each step is governed by defined
-              timelines, institutional oversight, and technology-assisted case
+              timelines, institutional oversight and technology-assisted case
               management to ensure efficiency without compromising fairness or
               due process.
             </p>
@@ -62,7 +62,7 @@ function JourneytoResolution() {
                 <span>
                   Arbitration is initiated by filing a request in accordance
                   with the Forum’s Rules. Upon receipt, the Forum registers the
-                  case, issues notices, and assigns a unique case reference
+                  case, issues notices and assigns a unique case reference
                   number.
                 </span>
               </li>
@@ -71,7 +71,7 @@ function JourneytoResolution() {
                 <strong>Neutral Appointment of Arbitrator(s)</strong>
                 <span>
                   Arbitrator(s) are appointed through the Forum’s institutional,
-                  panel-based mechanism ensuring neutrality, suitability, and
+                  panel-based mechanism ensuring neutrality, suitability and
                   independence.
                 </span>
               </li>
@@ -80,7 +80,7 @@ function JourneytoResolution() {
                 <strong>Preliminary Conference & Procedural Framework</strong>
                 <span>
                   A preliminary conference may be conducted to establish
-                  procedural timelines, hearing formats, and administrative
+                  procedural timelines, hearing formats and administrative
                   arrangements.
                 </span>
               </li>

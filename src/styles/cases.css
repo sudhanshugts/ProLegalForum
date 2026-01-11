@@ -16,7 +16,7 @@
   margin-bottom: 25px;
   color: var(--text);
   line-height: 1.2;
-  font-family: "DM Serif Display", serif;
+  
   animation: fadeUp 0.9s ease forwards;
   opacity: 0;
   transform: translateY(25px);
@@ -60,7 +60,7 @@
   font-weight: 600;
   color: #fff;
   margin-bottom: 10px;
-  font-family: "DM Serif Display", serif;
+  
 }
 
 .placeholder-box p {

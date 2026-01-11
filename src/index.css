@@ -6,16 +6,41 @@ font-family: "Libre Baskerville", serif;
 font-family: "Merriweather", serif;
 font-family: "Poppins", sans-serif; */
 
+@font-face {
+  font-family: Calibri-Bold;
+  src: url(./assets/fonts/fonnts.com-Calibri_Bold.otf);
+}
+@font-face {
+  font-family: Calibri;
+  src: url(./assets/fonts/fonnts.com-Calibri.otf);
+}
+@font-face {
+  font-family: Calibri-Light;
+  src: url(./assets/fonts/fonnts.com-Calibri_Light.otf);
+}
+@font-face {
+  font-family: Calibri-Italic;
+  src: url(./assets/fonts/fonnts.com-Calibri_Italic.otf);
+}
+@font-face {
+  font-family: Calibri-Light-Italic;
+  src: url(./assets/fonts/fonnts.com-Calibri_Light_Italic.otf);
+}
+@font-face {
+  font-family: Calibri-Bold-Italic;
+  src: url(./assets/fonts/fonnts.com-Calibri_Bold_Italic.otf);
+}
+
 /* GLOBAL RESETS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Calibri";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
-
 
 /* THEME COLORS */
 :root {
@@ -29,7 +54,8 @@ body {
   color: var(--text);
   font-family: "Inter", sans-serif;
 }
-html, body {
+html,
+body {
   overflow-y: scroll;
   scrollbar-width: none;
 }

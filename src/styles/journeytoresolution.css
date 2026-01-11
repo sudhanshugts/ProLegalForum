@@ -18,7 +18,7 @@
   margin-bottom: 25px;
   color: var(--text);
   line-height: 1.2;
-  font-family: "DM Serif Display", serif;
+
   opacity: 0;
   transform: translateY(25px);
   animation: fadeUp 0.9s ease forwards;
@@ -71,7 +71,7 @@
 /* WIP Heading */
 .journey-wip-card h3 {
   font-size: 24px;
-  font-family: "DM Serif Display", serif;
+  
   margin-bottom: 12px;
   color: var(--text);
 }
@@ -169,7 +169,7 @@
 
 /* Section Heading */
 .journey-structured h3 {
-  font-family: "DM Serif Display", serif;
+  
   font-size: 26px;
   color: var(--text);
   margin-bottom: 18px;

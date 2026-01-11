@@ -11,9 +11,9 @@ function Cases() {
 
           <p>
             Arbitrations administered by Pro Legal Institutional Arbitration
-            Forum are registered, categorised, and monitored through a
+            Forum are registered, categorised and monitored through a
             structured institutional framework designed to ensure
-            confidentiality, procedural integrity, and transparency.
+            confidentiality, procedural integrity and transparency.
           </p>
 
           <p>
@@ -25,7 +25,7 @@ function Cases() {
           </p>
           <p>
             This section will, in due course, provide access to anonymised case
-            references, broad dispute categories, and procedural status
+            references, broad dispute categories and procedural status
             indicators, without disclosing the identity of parties or sensitive
             information.
           </p>
