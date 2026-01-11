@@ -29,7 +29,7 @@
   margin-bottom: 20px;
   line-height: 1.45;
   color: var(--secondary);
-  font-size: 17px;
+  font-size: 18px;
   opacity: 0;
   transform: translateY(25px);
   animation: fadeUp 0.9s ease forwards;
@@ -177,7 +177,7 @@
 
 /* Intro paragraph */
 .journey-structured > p {
-  font-size: 17px;
+   font-size: 18px;
   line-height: 1.65;
   margin-bottom: 28px;
   text-align: left;

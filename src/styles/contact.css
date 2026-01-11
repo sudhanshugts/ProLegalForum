@@ -29,7 +29,7 @@
   margin-bottom: 18px;
   line-height: 1.45;
   color: var(--secondary);
-  font-size: 17px;
+   font-size: 18px;
   animation: fadeUp 0.9s ease forwards;
   opacity: 0;
   transform: translateY(25px);
@@ -57,7 +57,7 @@
 }
 
 .contact-item {
-  font-size: 17px;
+ font-size: 18px;
   margin-bottom: 15px;
   color: var(--secondary);
 }
