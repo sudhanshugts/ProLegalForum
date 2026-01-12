@@ -26,26 +26,26 @@ function Arbitrators() {
             resolution.
           </p>
           <p className="fade-subtitle">
-            <span style={{ fontWeight: "bold" }}>The Panel Comprises:</span>{" "}
+            <span style={{ fontWeight: "bold",color:"#f4f1eb" }}>The Panel Comprises:</span>{" "}
             <br />
-            <span style={{fontStyle:"italic"}}>
+            <span style={{fontStyle:"italic",color:"#f4f1eb"}}>
               • Individuals who have served in judicial and quasi-judicial
               capacities, contributing years of experience in the structured
               determination of disputes
             </span>
             <br />
-          <span style={{fontStyle:"italic"}}>
+          <span style={{fontStyle:"italic",color:"#f4f1eb"}}>
               • Senior legal professionals with extensive exposure to
               decision-making roles across civil, commercial and financial
               matters
             </span>
             <br />
-           <span style={{fontStyle:"italic"}}>
+           <span style={{fontStyle:"italic",color:"#f4f1eb"}}>
               • Academicians and scholars whose work reflects deep engagement
               with adjudicatory principles and legal reasoning
             </span>
             <br />
-             <span style={{fontStyle:"italic"}}>
+             <span style={{fontStyle:"italic",color:"#f4f1eb"}}>
               {" "}
               • Practitioners with substantial professional experience, known
               for their analytical rigor and balanced approach
@@ -53,19 +53,19 @@ function Arbitrators() {
             <br />
           </p>
 
-          <p className="fade-subtitle fade-step delay-2">
+          <p className="fade-subtitle fade-step ">
             Every arbitrator empanelled with the Forum is selected through an
             institutional process that places emphasis on independence,
             integrity and proven decision-making ability, rather than advocacy
             alone.
           </p>
-          <p className="fade-subtitle fade-step delay-2">
+          <p className="fade-subtitle fade-step ">
             The Forum does not promote or nominate arbitrators on the basis of
             affiliation or visibility. Appointments are administered through
             neutral, panel-based mechanisms designed to ensure suitability,
             impartiality and confidence in the arbitral process.
           </p>
-          <p className="fade-subtitle fade-step delay-2">
+          <p className="fade-subtitle fade-step">
             The arbitrators associated with the Forum bring to each proceeding a
             mindset shaped by years of structured dispute resolution, ensuring
             that proceedings are conducted with fairness, clarity and respect

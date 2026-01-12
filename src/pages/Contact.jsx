@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <Layout>
-      <div className="contact-page">
+      <div className="contact-page fadeup">
         <div className="contact-container">
           <h1>Contact Us</h1>
 
@@ -55,7 +55,7 @@ function Contact() {
           </p>
 
           {/* Inquiry Form */}
-          <form className="contact-form fade-up" onSubmit={handleSubmit}>
+          <form className="contact-form" onSubmit={handleSubmit}>
             <h2>Inquiry Form</h2>
 
             <input

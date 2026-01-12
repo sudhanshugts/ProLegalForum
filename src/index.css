@@ -39,14 +39,14 @@ font-family: "Poppins", sans-serif; */
   /* font-family: "Poppins", sans-serif; */
   font-family: "Calibri";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* THEME COLORS */
 :root {
   --primary: #1c442f;
   --secondary: #d19a62;
-  --text: #ffffff;
+  --text: #f4f1eb;
 }
 
 body {

@@ -2,27 +2,27 @@ import Layout from "../components/Layout";
 import "../styles/services.css";
 import Transition from "../Transition";
 
-function Services() {
+function Services() { 
   return (
     <Layout>
       <div className="services-page">
         <div className="services-container fade-up">
           <h1>Our Services</h1>
 
-          <p className="delay-1">
+          <p>
             Pro Legal Institutional Arbitration Forum provides structured,
             rules-based arbitration administration through a neutral
             institutional framework designed to ensure procedural fairness,
             efficiency and reliability in dispute resolution.
           </p>
 
-          <p className="delay-2">
+          <p >
             The Forum supports arbitral proceedings from commencement to
             conclusion through transparent processes, predictable timelines and
             professionally governed case management—suited for commercial,
             corporate and financial disputes.
           </p>
-          <p className="delay-2">
+          <p >
             The Forum’s role is strictly administrative, ensuring neutrality and
             procedural discipline without interfering in the decision-making
             authority of the arbitral tribunal.

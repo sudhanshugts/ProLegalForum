@@ -1,6 +1,6 @@
 /* About Page */
 .about-page {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   padding: 100px 30px;
@@ -13,7 +13,7 @@
 
 /* Heading */
 .about-container h1 {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 25px;
   color: var(--text);
@@ -23,10 +23,10 @@
 
 /* Paragraphs */
 .about-container p {
-  margin-bottom: 18px;
+  font-size: 20px;
   line-height: 1.45;
   color: var(--secondary);
-  font-size: 18px;
+   font-size: 20px;
   text-align: left;
 }
 
@@ -37,19 +37,6 @@
   animation: fadeUp 0.9s ease forwards;
 }
 
-/* Delay Helpers */
-.delay-1 {
-  animation-delay: 0.2s;
-}
-.delay-2 {
-  animation-delay: 0.4s;
-}
-.delay-3 {
-  animation-delay: 0.6s;
-}
-.delay-4 {
-  animation-delay: 0.8s;
-}
 
 /* Keyframes */
 @keyframes fadeUp {

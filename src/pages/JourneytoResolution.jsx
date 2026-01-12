@@ -26,24 +26,24 @@ function JourneytoResolution() {
 
   return (
     <Layout>
-      <div className="journey-page">
+      <div className="journey-page fadeup">
         <div className="journey-container">
           <h1 className="journey-title">Journey to Resolution</h1>
 
-          <p className="journey-description delay-1">
+          <p className="journey-description">
             Pro Legal Institutional Arbitration Forum administers arbitral
             proceedings through a structured, transparent and time-bound
             process designed to ensure procedural fairness, neutrality and
             efficient resolution of disputes.
           </p>
 
-          <p className="journey-description delay-2">
+          <p className="journey-description ">
             The Forum’s role throughout the arbitral lifecycle is strictly
             administrative. It facilitates each stage of the proceedings in
             accordance with its Rules, while the arbitral tribunal independently
             conducts the adjudication.
           </p>
-          <div className="journey-structured delay-2">
+          <div className="journey-structured">
             <h3>A Structured Pathway from Commencement to Award</h3>
 
             <p>

@@ -1,67 +1,132 @@
 /* Blog Page */
 .blog-page {
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 100px 30px;
 }
 
 .blog-container {
   max-width: 900px;
+  text-align: left;
+}
+
+/* Title */
+.blog-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--text);
   text-align: center;
 }
 
-/* Main Heading */
-.blog-container h1 {
-  font-size: 38px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: var(--text);
-  
+/* Section */
+.blog-section {
+  margin-bottom: 45px;
 }
 
-/* Blog Title */
-.blog-container h2 {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 25px;
+/* Section Heading */
+.blog-section h2 {
+  font-size: 26px;
   color: var(--text);
-}
-
-/* Paragraphs */
-.blog-container p {
   margin-bottom: 18px;
+}
+
+/* Paragraph */
+.blog-section p {
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+/* Bullet List */
+.blog-list {
+  padding-left: 22px;
+  margin-bottom: 22px;
+}
+
+.blog-list li {
+  font-size: 20px;
+  color: var(--secondary);
+  margin-bottom: 10px;
+}
+
+/* Numbered Steps */
+.blog-steps {
+  list-style: none;
+  counter-reset: step;
+  padding-left: 0;
+}
+
+.blog-steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 48px;
+  margin-bottom: 22px;
+}
+
+.blog-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.blog-steps strong {
+  display: block;
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.blog-steps span {
+  font-size: 20px;
   line-height: 1.6;
   color: var(--secondary);
-  font-size: 18px;
-  text-align: justify;
 }
 
-/* Fade Animation */
-.fade-up {
+/* Highlight Box */
+.blog-highlight-box {
+  padding: 22px 24px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  margin-bottom: 25px;
+}
+
+.blog-highlight-box h4 {
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.blog-highlight-box li {
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Disclaimer */
+.blog-disclaimer {
+  margin-top: 40px;
+  font-size: 16px;
+  color: var(--secondary);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+}
+
+/* Fade animation (same as Journey) */
+.fadeup {
   opacity: 0;
   transform: translateY(25px);
   animation: fadeUp 0.9s ease forwards;
-}
-
-/* Delay Helpers */
-.delay-1 {
-  animation-delay: 0.2s;
-}
-.delay-2 {
-  animation-delay: 0.4s;
-}
-.delay-3 {
-  animation-delay: 0.6s;
-}
-.delay-4 {
-  animation-delay: 0.8s;
-}
-
-/* Keyframes */
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }

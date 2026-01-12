@@ -12,7 +12,7 @@
 
 /* Title */
 .fade-title {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 25px;
   color: var(--text);
@@ -25,7 +25,7 @@
   margin-bottom: 35px;
   line-height: 1.45;
   color: var(--secondary);
-  font-size: 18px;
+    font-size: 20px;
   text-align: left;
 }
 
@@ -68,14 +68,6 @@
   animation: fadeUp 0.9s ease forwards;
 }
 
-/* Delay System */
-.delay-1 { animation-delay: 0.2s; }
-.delay-2 { animation-delay: 0.4s; }
-.delay-3 { animation-delay: 0.6s; }
-.delay-4 { animation-delay: 0.8s; }
-.delay-5 { animation-delay: 1s; }
-.delay-6 { animation-delay: 1.2s; }
-.delay-7 { animation-delay: 1.4s; }
 
 /* Keyframes */
 @keyframes fadeUp {

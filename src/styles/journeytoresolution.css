@@ -13,15 +13,13 @@
 
 /* Title */
 .journey-title {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 25px;
   color: var(--text);
   line-height: 1.2;
 
-  opacity: 0;
   transform: translateY(25px);
-  animation: fadeUp 0.9s ease forwards;
 }
 
 /* Description */
@@ -29,22 +27,10 @@
   margin-bottom: 20px;
   line-height: 1.45;
   color: var(--secondary);
-  font-size: 18px;
-  opacity: 0;
-  transform: translateY(25px);
-  animation: fadeUp 0.9s ease forwards;
-  text-align: left;
-}
+  font-size: 20px;
 
-/* Animation Delays */
-.delay-1 {
-  animation-delay: 0.2s;
-}
-.delay-2 {
-  animation-delay: 0.4s;
-}
-.delay-3 {
-  animation-delay: 0.6s;
+  transform: translateY(25px);
+  text-align: left;
 }
 
 /* Work in Progress Card */
@@ -55,9 +41,8 @@
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   text-align: center;
-  opacity: 0;
+
   transform: translateY(25px);
-  animation: fadeUp 0.9s ease forwards;
   transition: all 0.3s ease;
 }
 
@@ -71,7 +56,7 @@
 /* WIP Heading */
 .journey-wip-card h3 {
   font-size: 24px;
-  
+
   margin-bottom: 12px;
   color: var(--text);
 }
@@ -92,24 +77,10 @@
   }
 }
 
-/* WIP Image */
-.journey-wip-image {
-  width: 100%;
-  /* height: 500px; */
-  margin: 20px 0px;
-  /* object-fit: contain; */
+.fadeup {
   opacity: 0;
-  transform: scale(0.95);
-  animation: fadeInScale 0.8s ease forwards;
-  animation-delay: 0.7s;
-}
-
-/* Image Animation */
-@keyframes fadeInScale {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  transform: translateY(25px);
+  animation: fadeUp 0.9s ease forwards;
 }
 
 /* Zoom cursor on hover */
@@ -162,14 +133,11 @@
   margin-top: 40px;
   text-align: left;
   max-width: 880px;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--secondary);
 }
 
 /* Section Heading */
 .journey-structured h3 {
-  
   font-size: 26px;
   color: var(--text);
   margin-bottom: 18px;
@@ -177,7 +145,7 @@
 
 /* Intro paragraph */
 .journey-structured > p {
-   font-size: 18px;
+  font-size: 20px;
   line-height: 1.65;
   margin-bottom: 28px;
   text-align: left;
@@ -219,13 +187,13 @@
 .journey-steps strong {
   display: block;
   color: var(--text);
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 6px;
 }
 
 /* Step description */
 .journey-steps span {
-  font-size: 15.5px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -238,7 +206,7 @@
 }
 
 .journey-principles h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--text);
   margin-bottom: 14px;
 }
@@ -249,5 +217,5 @@
 
 .journey-principles li {
   margin-bottom: 8px;
-  font-size: 15.5px;
+  font-size: 18px;
 }

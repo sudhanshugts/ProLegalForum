@@ -5,7 +5,7 @@ import Transition from "../Transition";
 function Cases() {
   return (
     <Layout>
-      <div className="cases-page">
+      <div className="cases-page fadeup">
         <div className="cases-container">
           <h1>Cases</h1>
 

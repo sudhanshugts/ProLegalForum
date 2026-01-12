@@ -12,15 +12,11 @@
 
 /* Heading */
 .contact-container h1 {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 25px;
   color: var(--text);
   line-height: 1.2;
-
-
-  animation: fadeUp 0.9s ease forwards;
-  opacity: 0;
   transform: translateY(25px);
 }
 
@@ -29,19 +25,13 @@
   margin-bottom: 18px;
   line-height: 1.45;
   color: var(--secondary);
-   font-size: 18px;
-  animation: fadeUp 0.9s ease forwards;
-  opacity: 0;
+     font-size: 20px;
+
   transform: translateY(25px);
+  text-align: left;
 }
 
-.contact-container > p:nth-of-type(1) {
-  animation-delay: 0.2s;
-}
 
-.contact-container > p:nth-of-type(2) {
-  animation-delay: 0.4s;
-}
 
 /* Contact Info Box */
 .contact-info {
@@ -50,21 +40,20 @@
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  animation: fadeUp 0.9s ease forwards;
   animation-delay: 0.6s;
-  opacity: 0;
+  
   transform: translateY(25px);
 }
 
 .contact-item {
- font-size: 18px;
+   font-size: 20px;
   margin-bottom: 15px;
   color: var(--secondary);
+  text-align: left;
 }
 
 .contact-item span {
-  color: #fff;
-  font-weight: 600;
+   color: var(--text);
 }
 
 /* Small Note */
@@ -72,20 +61,22 @@
   margin-top: 30px;
   font-size: 15px;
   color: var(--secondary);
-  animation: fadeUp 0.9s ease forwards;
-  animation-delay: 0.8s;
-  opacity: 0;
-  transform: translateY(25px);
 }
 
-/* Animate FadeUp */
+
+
+/* Fade Animation */
 @keyframes fadeUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
+.fadeup {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeUp 0.9s ease forwards;
+}
 
 /* Inquiry Form - Matching Existing Theme */
 .contact-form {
@@ -102,7 +93,7 @@
 
 /* Form Heading */
 .contact-form h2 {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-size: 22px;
   font-weight: 500;
   color: var(--text);
@@ -118,8 +109,7 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: transparent;
   color: var(--text);
-  font-size: 15px;
-  transition: border 0.3s ease;
+  font-size: 18px;
 }
 
 .contact-form input::placeholder,
@@ -140,15 +130,16 @@
   padding: 12px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  background: transparent;
-  color: var(--text);
-  font-size: 15px;
+  background: var(--secondary);
+  color: var(--primary);
+  font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+
 }
 
 /* Hover Effect */
 .contact-form button:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background-color: var(--text);
+  color: var(--secondary);
 }

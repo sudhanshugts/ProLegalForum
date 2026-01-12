@@ -2,14 +2,14 @@ import Layout from "../components/Layout";
 import "../styles/about.css";
 import Transition from "../Transition";
 
-function About() {
+function About() { 
   return (
     <Layout>
       <div className="about-page">
         <div className="about-container fade-up">
           <h1>About Pro Legal Institutional Arbitration Forum</h1>
 
-          <p className="delay-1">
+          <p >
             Pro Legal Institutional Arbitration Forum is a professionally
             managed arbitration institution created to offer parties a reliable
             and credible forum for resolving disputes. The focus of the Forum is
